@@ -1,0 +1,16 @@
+Primary_Colors = ["red", "blue", "yellow"]
+
+Primary1 = input("Enter primary color: ")
+Primary2 = input("Enter primary color: ")
+
+if Primary1 not in Primary_Colors or Primary2 not in Primary_Colors:
+    print("ERROR")
+
+elif (Primary1 == "red" or Primary2 == "red") and (Primary1 == "blue" or Primary2 == "blue") : 
+    print("purple")
+
+elif (Primary1 == "red" or Primary2 == "red") and (Primary1 == "yellow" or Primary2 == "yellow") : 
+    print("orange")
+
+elif (Primary1 == "blue" or Primary2 == "blue") and (Primary1 == "yellow" or Primary2 == "yellow") : 
+    print("green")
