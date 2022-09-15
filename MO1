@@ -1,0 +1,9 @@
+celcius = 0.0
+fahrenheit = 0.0
+
+celcius = float(input("Enter the temp in celcius: "))
+
+fahrenheit = celcius + (32 * 9/5)
+
+print("The temperature is equal to, ", format(fahrenheit, '.3f')
+        ,"degrees fahrenheit.")
